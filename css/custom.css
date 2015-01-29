@@ -1,0 +1,26 @@
+/*\/\/\/ CUSTOM CSS \/\/\/\*/
+/* Navigation */
+.navbar {
+	min-height: 90px;
+}
+.navbar-logo {
+	display:inline-block;
+	float: left;
+	font-size: 18px;
+	line-height: 20px;
+}
+.navbar-header {
+	padding: 20px 0;
+}
+.logo {
+	margin-left: 0px !important;
+}
+
+/* CTA */
+.cta-header {
+	margin-top:80px; /* dit is voor de correctie met het menu */
+	padding: 100px 0;
+	background-image:url(http://placehold.it/1800x600);
+	background-position: center;
+	margin-bottom: 50px;
+}
