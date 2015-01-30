@@ -1,26 +1,53 @@
 /*\/\/\/ CUSTOM CSS \/\/\/\*/
+/* Variables */
+$primary-color: #333;
+$secondary-color: #333;
+
+/* Different states of a project */
+$finished-color: #333;
+$active-color: #333;
+$waiting-color: #333;
+$stuck-color: #333;
+
+
 /* Navigation */
 .navbar {
-	min-height: 90px;
+  min-height: 90px;
 }
+
 .navbar-logo {
-	display:inline-block;
-	float: left;
-	font-size: 18px;
-	line-height: 20px;
+  display: inline-block;
+  float: left;
+  font-size: 18px;
+  line-height: 20px;
 }
+
 .navbar-header {
-	padding: 20px 0;
+  padding: 20px 0;
 }
+
 .logo {
-	margin-left: 0px !important;
+  margin-left: 0px !important;
 }
 
 /* CTA */
 .cta-header {
-	margin-top:80px; /* dit is voor de correctie met het menu */
-	padding: 100px 0;
-	background-image:url(http://placehold.it/1800x600);
-	background-position: center;
-	margin-bottom: 50px;
+  margin-top: 80px;
+  padding: 100px 0;
+  background-image: url(http://placehold.it/1800x600);
+  background-position: center;
+  margin-bottom: 50px; /* dit is voor de correctie met het menu */
+}
+
+/* LIST */
+.bs-list {
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.bs-list-waiting, .bs-list-stuck, .bs-list-active, .bs-list-finished {
+  border-left-color: #1b809e;
 }
