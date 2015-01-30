@@ -34,7 +34,16 @@
   border-left-width: 5px;
   border-radius: 3px; }
 
-.bs-list-waiting, .bs-list-stuck, .bs-list-active, .bs-list-finished {
-  border-left-color: #1b809e; }
+.bs-list-finished {
+  border-left-color: #5cb85c; }
+
+.bs-list-waiting {
+  border-left-color: #337ab7; }
+
+.bs-list-stuck {
+  border-left-color: #f0ad4e; }
+
+.bs-list-active {
+  border-left-color: #5bc0de; }
 
 /*# sourceMappingURL=custom.css.map */

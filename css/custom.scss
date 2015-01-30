@@ -4,10 +4,10 @@ $primary-color: #333;
 $secondary-color: #333;
 
 /* Different states of a project */
-$finished-color: #333;
-$active-color: #333;
-$waiting-color: #333;
-$stuck-color: #333;
+$finished-color: #5cb85c;
+$active-color: #5bc0de;
+$waiting-color: #337ab7;
+$stuck-color: #f0ad4e;
 
 
 /* Navigation */
@@ -48,6 +48,7 @@ $stuck-color: #333;
   border-radius: 3px;
 }
 
-.bs-list-waiting, .bs-list-stuck, .bs-list-active, .bs-list-finished {
-  border-left-color: #1b809e;
-}
+.bs-list-finished {border-left-color: $finished-color;}
+.bs-list-waiting {border-left-color: $waiting-color;}
+.bs-list-stuck {border-left-color: $stuck-color;}
+.bs-list-active {border-left-color: $active-color;}
