@@ -24,24 +24,3 @@
 	background-position: center;
 	margin-bottom: 50px;
 }
-
-/* LIST */
-.bs-list {
-	padding: 10px 20px;
-	margin: 20px 0;
-	border: 1px solid #eee;
-	border-left-width: 5px;
-	border-radius: 3px;
-}
-.bs-list-waiting {
-	border-left-color: #1b809e;
-}
-.bs-list-stuck {
-	border-left-color: #1b809e;
-}
-.bs-list-active {
-	border-left-color: #1b809e;
-}
-.bs-list-finished {
-	border-left-color: #1b809e;
-}
