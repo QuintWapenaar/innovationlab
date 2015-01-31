@@ -10,7 +10,7 @@ $waiting-color: #337ab7;
 $stuck-color: #f0ad4e;
 
 
-/* Navigation */
+/*-- Navigation --*/
 .navbar {
   min-height: 90px;
 }
@@ -30,7 +30,7 @@ $stuck-color: #f0ad4e;
   margin-left: 0px !important;
 }
 
-/* CTA */
+/*-- CTA --*/
 .cta-header {
   margin-top: 80px;
   padding: 100px 0;
@@ -39,16 +39,39 @@ $stuck-color: #f0ad4e;
   margin-bottom: 50px; /* dit is voor de correctie met het menu */
 }
 
-/* LIST */
+/*-- LIST --*/
 .bs-list {
   padding: 10px 20px;
   margin: 20px 0;
   border: 1px solid #eee;
   border-left-width: 5px;
   border-radius: 3px;
-}
 
+  .label-finished, .label-waiting, .label-stuck, .label-active {
+    margin: 10px 0;
+    display: inline-block;
+  }
+}
+.jumbotron {
+  .bs-list {background-color: #fff;}
+  .bs-list-finished {border-left-color: $finished-color;}
+  .bs-list-waiting {border-left-color: $waiting-color;}
+  .bs-list-stuck {border-left-color: $stuck-color;}
+  .bs-list-active {border-left-color: $active-color;}
+}
 .bs-list-finished {border-left-color: $finished-color;}
 .bs-list-waiting {border-left-color: $waiting-color;}
 .bs-list-stuck {border-left-color: $stuck-color;}
 .bs-list-active {border-left-color: $active-color;}
+
+.label-finished {background-color: $finished-color;}
+.label-waiting  {background-color: $waiting-color;}
+.label-stuck    {background-color: $stuck-color;}
+.label-active   {background-color: $active-color;}
+/* FOR JS*/
+.box {display:none;}
+
+/*-- FIXES --*/
+.jumbotron p {
+  font-size: 14px;
+}
