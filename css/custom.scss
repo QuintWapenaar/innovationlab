@@ -1,14 +1,9 @@
 /*\/\/\/ CUSTOM CSS \/\/\/\*/
-/* Variables */
-$primary-color: #333;
-$secondary-color: #333;
+@import 'partials/variables';
+@import 'partials/list';
 
-/* Different states of a project */
-$finished-color: #5cb85c;
-$active-color: #5bc0de;
-$waiting-color: #337ab7;
-$stuck-color: #f0ad4e;
-
+/* Paddings */
+.padding-bottom-40 {padding-bottom: 40px;}
 
 /*-- Navigation --*/
 .navbar {
@@ -39,37 +34,8 @@ $stuck-color: #f0ad4e;
   margin-bottom: 50px; /* dit is voor de correctie met het menu */
 }
 
-/*-- LIST --*/
-.bs-list {
-  padding: 10px 20px;
-  margin: 20px 0;
-  border: 1px solid #eee;
-  border-left-width: 5px;
-  border-radius: 3px;
-
-  .label-finished, .label-waiting, .label-stuck, .label-active {
-    margin: 10px 0;
-    display: inline-block;
-  }
-}
-.jumbotron {
-  .bs-list {background-color: #fff;}
-  .bs-list-finished {border-left-color: $finished-color;}
-  .bs-list-waiting {border-left-color: $waiting-color;}
-  .bs-list-stuck {border-left-color: $stuck-color;}
-  .bs-list-active {border-left-color: $active-color;}
-}
-.bs-list-finished {border-left-color: $finished-color;}
-.bs-list-waiting {border-left-color: $waiting-color;}
-.bs-list-stuck {border-left-color: $stuck-color;}
-.bs-list-active {border-left-color: $active-color;}
-
-.label-finished {background-color: $finished-color;}
-.label-waiting  {background-color: $waiting-color;}
-.label-stuck    {background-color: $stuck-color;}
-.label-active   {background-color: $active-color;}
-/* FOR JS*/
-.box {display:none;}
+/* For JS */
+.extra-info {display:none;}
 
 /*-- FIXES --*/
 .jumbotron p {

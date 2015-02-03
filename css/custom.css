@@ -1,6 +1,70 @@
 /*\/\/\/ CUSTOM CSS \/\/\/\*/
-/* Variables */
 /* Different states of a project */
+.bs-list {
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px; }
+  .bs-list .label-finished, .bs-list .label-waiting, .bs-list .label-stuck, .bs-list .label-active {
+    margin: 10px 0;
+    display: inline-block; }
+
+.jumbotron .bs-list {
+  background-color: #fff; }
+.jumbotron .bs-list-finished {
+  border-left-color: #5cb85c; }
+.jumbotron .bs-list-waiting {
+  border-left-color: #337ab7; }
+.jumbotron .bs-list-stuck {
+  border-left-color: #f0ad4e; }
+.jumbotron .bs-list-active {
+  border-left-color: #5bc0de; }
+.jumbotron .nav > li > a {
+  background-color: #E4E4E4;
+  color: #fff; }
+.jumbotron .nav > li > a:hover,
+.jumbotron .nav > li > a:focus {
+  text-decoration: none;
+  color: #337ab7;
+  background-color: #FFF; }
+.jumbotron .nav-pills > li.active > a,
+.jumbotron .nav-pills > li.active > a:hover,
+.jumbotron .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #337ab7; }
+
+.bs-list-finished {
+  border-left-color: #5cb85c; }
+
+.bs-list-waiting {
+  border-left-color: #337ab7; }
+
+.bs-list-stuck {
+  border-left-color: #f0ad4e; }
+
+.bs-list-active {
+  border-left-color: #5bc0de; }
+
+.bs-list:hover {
+  opacity: 0.7; }
+
+.label-finished {
+  background-color: #5cb85c; }
+
+.label-waiting {
+  background-color: #337ab7; }
+
+.label-stuck {
+  background-color: #f0ad4e; }
+
+.label-active {
+  background-color: #5bc0de; }
+
+/* Paddings */
+.padding-bottom-40 {
+  padding-bottom: 40px; }
+
 /*-- Navigation --*/
 .navbar {
   min-height: 90px; }
@@ -26,54 +90,8 @@
   margin-bottom: 50px;
   /* dit is voor de correctie met het menu */ }
 
-/*-- LIST --*/
-.bs-list {
-  padding: 10px 20px;
-  margin: 20px 0;
-  border: 1px solid #eee;
-  border-left-width: 5px;
-  border-radius: 3px; }
-  .bs-list .label-finished, .bs-list .label-waiting, .bs-list .label-stuck, .bs-list .label-active {
-    margin: 10px 0;
-    display: inline-block; }
-
-.jumbotron .bs-list {
-  background-color: #fff; }
-.jumbotron .bs-list-finished {
-  border-left-color: #5cb85c; }
-.jumbotron .bs-list-waiting {
-  border-left-color: #337ab7; }
-.jumbotron .bs-list-stuck {
-  border-left-color: #f0ad4e; }
-.jumbotron .bs-list-active {
-  border-left-color: #5bc0de; }
-
-.bs-list-finished {
-  border-left-color: #5cb85c; }
-
-.bs-list-waiting {
-  border-left-color: #337ab7; }
-
-.bs-list-stuck {
-  border-left-color: #f0ad4e; }
-
-.bs-list-active {
-  border-left-color: #5bc0de; }
-
-.label-finished {
-  background-color: #5cb85c; }
-
-.label-waiting {
-  background-color: #337ab7; }
-
-.label-stuck {
-  background-color: #f0ad4e; }
-
-.label-active {
-  background-color: #5bc0de; }
-
-/* FOR JS*/
-.box {
+/* For JS */
+.extra-info {
   display: none; }
 
 /*-- FIXES --*/
