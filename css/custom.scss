@@ -29,9 +29,20 @@
 .cta-header {
   margin-top: 80px;
   padding: 100px 0;
-  background-image: url(http://placehold.it/1800x600);
+  background-image: url(https://hroutsider.files.wordpress.com/2013/09/istock_000017321529medium.jpg);
   background-position: center;
   margin-bottom: 50px; /* dit is voor de correctie met het menu */
+
+  h1 {
+    color:white;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+  }
+  a.btn-primary {
+    background-color: $orange;
+    border-color: $orange-hover;
+    &:hover {background-color: $orange-hover;}
+  }
 }
 
 /* For JS */
