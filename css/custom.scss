@@ -1,16 +1,11 @@
 /*\/\/\/ CUSTOM CSS \/\/\/\*/
-/* Variables */
-$primary-color: #333;
-$secondary-color: #333;
+@import 'partials/variables';
+@import 'partials/list';
 
-/* Different states of a project */
-$finished-color: #333;
-$active-color: #333;
-$waiting-color: #333;
-$stuck-color: #333;
+/* Paddings */
+.padding-bottom-40 {padding-bottom: 40px;}
 
-
-/* Navigation */
+/*-- Navigation --*/
 .navbar {
   min-height: 90px;
 }
@@ -30,24 +25,30 @@ $stuck-color: #333;
   margin-left: 0px !important;
 }
 
-/* CTA */
+/*-- CTA --*/
 .cta-header {
   margin-top: 80px;
   padding: 100px 0;
-  background-image: url(http://placehold.it/1800x600);
+  background-image: url(https://hroutsider.files.wordpress.com/2013/09/istock_000017321529medium.jpg);
   background-position: center;
   margin-bottom: 50px; /* dit is voor de correctie met het menu */
+
+  h1 {
+    color:white;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+  }
+  a.btn-primary {
+    background-color: $orange;
+    border-color: $orange-hover;
+    &:hover {background-color: $orange-hover;}
+  }
 }
 
-/* LIST */
-.bs-list {
-  padding: 10px 20px;
-  margin: 20px 0;
-  border: 1px solid #eee;
-  border-left-width: 5px;
-  border-radius: 3px;
-}
+/* For JS */
+.extra-info {display:none;}
 
-.bs-list-waiting, .bs-list-stuck, .bs-list-active, .bs-list-finished {
-  border-left-color: #1b809e;
+/*-- FIXES --*/
+.jumbotron p {
+  font-size: 14px;
 }
