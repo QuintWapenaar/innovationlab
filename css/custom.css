@@ -81,6 +81,10 @@
 .logo {
   margin-left: 0px !important; }
 
+.navbar-nav > li > a {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
 /*-- CTA --*/
 .cta-header {
   margin-top: 80px;
@@ -106,5 +110,11 @@
 /*-- FIXES --*/
 .jumbotron p {
   font-size: 14px; }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden; }
 
 /*# sourceMappingURL=custom.css.map */
