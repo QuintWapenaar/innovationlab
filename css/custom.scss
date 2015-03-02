@@ -1,0 +1,65 @@
+/*\/\/\/ CUSTOM CSS \/\/\/\*/
+@import 'partials/variables';
+@import 'partials/list';
+
+/* Paddings */
+.padding-bottom-40 {padding-bottom: 40px;}
+
+/*-- Navigation --*/
+.navbar {
+  min-height: 90px;
+}
+
+.navbar-logo {
+  display: inline-block;
+  float: left;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-header {
+  padding: 20px 0;
+}
+
+.logo {
+  margin-left: 0px !important;
+}
+
+.navbar-nav > li > a {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/*-- CTA --*/
+.cta-header {
+  margin-top: 80px;
+  padding: 100px 0;
+  background-image: url(https://hroutsider.files.wordpress.com/2013/09/istock_000017321529medium.jpg);
+  background-position: center;
+  margin-bottom: 50px; /* dit is voor de correctie met het menu */
+
+  h1 {
+    color:white;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+  }
+  a.btn-primary {
+    background-color: $orange;
+    border-color: $orange-hover;
+    &:hover {background-color: $orange-hover;}
+  }
+}
+
+/* For JS */
+.extra-info {display:none;}
+
+/*-- FIXES --*/
+.jumbotron p {
+  font-size: 14px;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}
